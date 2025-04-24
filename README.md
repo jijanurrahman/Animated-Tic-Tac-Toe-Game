@@ -15,7 +15,6 @@ An eye-catching, modern implementation of the classic Tic-Tac-Toe game with rich
 ---
 ## [🎮 Play Online ](https://jijan67.github.io/Animated-Tic-Tac-Toe-Game/)
 ---
----
 [![Download](https://img.shields.io/badge/Download-APK-blue.svg?style=flat&logo=android)](https://drive.google.com/file/d/1XNPPdRxhO4GYYBKf7nEf29QEKzdM2YDU/view?usp=sharing)
 ---
 ## 🚀 Technologies Used
