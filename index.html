@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JIJANUR-Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Background elements -->
+    <div class="background-elements">
+        <div class="floating-icon" style="top: 15%; left: 10%;">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="floating-icon" style="top: 25%; right: 15%;">
+            <i class="far fa-circle"></i>
+        </div>
+        <div class="floating-icon" style="bottom: 20%; left: 15%;">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="floating-icon" style="bottom: 30%; right: 10%;">
+            <i class="far fa-circle"></i>
+        </div>
+    </div>
+
+    <!-- Main container -->
+    <div class="container">
+        <h1 class="game-title">
+            <img src="https://cdn-icons-png.flaticon.com/512/566/566294.png" alt="Game Icon" class="game-icon">
+            Tic-Tac-Toe
+        </h1>
+
+        <!-- Player name inputs -->
+        <div class="player-container">
+            <div class="player-card player-x active">
+                <h3>Player 1</h3>
+                <input type="text" id="player1-name" placeholder="Enter name">
+                <div class="player-symbol">X</div>
+            </div>
+            <div class="player-card player-o">
+                <h3>Player 2</h3>
+                <input type="text" id="player2-name" placeholder="Enter name">
+                <div class="player-symbol">O</div>
+            </div>
+        </div>
+
+        <!-- Game board -->
+        <div class="board-container">
+            <div class="board" id="board"></div>
+        </div>
+
+        <!-- Game message -->
+        <div id="message" class="message"></div>
+
+        <!-- Game controls -->
+        <div class="controls">
+            <button id="start-button" class="button start-button">
+                <i class="fas fa-play"></i> Start Game
+            </button>
+            <button id="reset-button" class="button reset-button">
+                <i class="fas fa-redo"></i> New Game
+            </button>
+        </div>
+    </div>
+
+    <!-- Celebration overlay -->
+    <div id="celebration-overlay" class="celebration-overlay">
+        <div class="celebration-content">
+            <img id="celebration-image" src="" alt="Celebration image">
+            <h2 id="celebration-text"></h2>
+            <button id="continue-button" class="button continue-button">
+                <i class="fas fa-check"></i> Continue
+            </button>
+        </div>
+    </div>
+
+    <!-- Confetti container -->
+    <div id="confetti-container" class="confetti-container"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Made with <i class="fas fa-heart pulse"></i> by <a href="https://jijanurrahman.netlify.app/" target="_blank">Jijanur Rahman</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
